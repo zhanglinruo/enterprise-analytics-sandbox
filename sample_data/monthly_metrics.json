@@ -1,0 +1,34 @@
+{
+  "period": "2026-07",
+  "unit": "万元",
+  "metrics": [
+    {
+      "region": "华东区域",
+      "budget_revenue": 5200,
+      "actual_revenue": 4720,
+      "budget_cost": 4000,
+      "actual_cost": 3664,
+      "budget_profit": 1200,
+      "actual_profit": 1056
+    },
+    {
+      "region": "华南区域",
+      "budget_revenue": 4300,
+      "actual_revenue": 4380,
+      "budget_cost": 3300,
+      "actual_cost": 3340,
+      "budget_profit": 1000,
+      "actual_profit": 1040
+    },
+    {
+      "region": "华北区域",
+      "budget_revenue": 3900,
+      "actual_revenue": 3820,
+      "budget_cost": 3050,
+      "actual_cost": 3000,
+      "budget_profit": 850,
+      "actual_profit": 820
+    }
+  ]
+}
+

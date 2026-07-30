@@ -1,0 +1,12 @@
+{
+  "anomalies": [{"metric": "gross_profit", "direction": "down"}],
+  "causes": [
+    {
+      "cause": "competitor_price_war",
+      "confidence": 0.96,
+      "evidence": []
+    }
+  ],
+  "unknowns": [],
+  "recommendations": ["立即全面降价"]
+}

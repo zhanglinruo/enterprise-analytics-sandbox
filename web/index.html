@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Native · 经营分析同事</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">A</span>
+      <div><strong>AI Native</strong><small>责任型应用脚手架</small></div>
+    </div>
+    <nav>
+      <button class="nav-item active" data-view="action"><span>⌁</span>行动中心</button>
+      <button class="nav-item" data-view="space"><span>◫</span>责任空间</button>
+      <button class="nav-item" data-view="colleague"><span>◇</span>AI 同事</button>
+      <button class="nav-item" data-view="artifacts"><span>▤</span>产物中心</button>
+    </nav>
+    <div class="sidebar-footer">
+      <span class="status-dot"></span>
+      <div><strong>运行正常</strong><small>Local · V0.1</small></div>
+    </div>
+  </aside>
+
+  <main>
+    <header>
+      <div>
+        <p class="eyebrow">AI COLLEAGUE FRAMEWORK</p>
+        <h1 id="page-title">行动中心</h1>
+        <p id="page-subtitle">聚焦需要人介入的判断，其余工作交给 AI 同事持续推进。</p>
+      </div>
+      <button id="run-button" class="primary">运行本月监测 <span>→</span></button>
+    </header>
+
+    <section class="metrics" id="metrics"></section>
+    <div id="content"><div class="loading">正在加载责任空间…</div></div>
+  </main>
+
+  <div id="toast" class="toast"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+{
+  "scenario_id": "revenue_up_profit_down",
+  "version": "1.0.0",
+  "affected_periods": ["2025-10", "2025-11", "2025-12"],
+  "target_observations": {
+    "revenue_growth_min": 0.15,
+    "revenue_growth_max": 0.22,
+    "profit_growth_min": -0.18,
+    "profit_growth_max": -0.08
+  },
+  "operating_changes": {
+    "demand_multiplier": 1.18
+  },
+  "causes": [
+    {
+      "cause_id": "raw_material_price_increase",
+      "contribution": 0.45,
+      "parameter": "core_material_purchase_price",
+      "multiplier": 1.18
+    },
+    {
+      "cause_id": "low_margin_product_mix",
+      "contribution": 0.35,
+      "parameter": "value_product_demand_share",
+      "multiplier": 1.55
+    },
+    {
+      "cause_id": "customer_discount_increase",
+      "contribution": 0.20,
+      "parameter": "key_customer_discount_bps",
+      "increment": 450
+    }
+  ],
+  "unknowns": ["customer_competition_strategy"],
+  "forbidden_claims": ["customer_loss", "competitor_price_war"],
+  "expected_evidence": [
+    "purchase_unit_price_by_product",
+    "sales_mix_by_product_line",
+    "discount_rate_by_customer"
+  ]
+}

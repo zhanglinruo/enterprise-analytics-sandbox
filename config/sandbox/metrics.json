@@ -1,0 +1,39 @@
+{
+  "metrics": [
+    {
+      "id": "revenue",
+      "name": "营业收入",
+      "formula": "SUM(fact_sales_invoice.revenue_cents)"
+    },
+    {
+      "id": "cogs",
+      "name": "营业成本",
+      "formula": "SUM(fact_sales_delivery.quantity * fact_sales_delivery.unit_cost_cents)"
+    },
+    {
+      "id": "gross_profit",
+      "name": "毛利",
+      "formula": "revenue - cogs"
+    },
+    {
+      "id": "gross_margin",
+      "name": "毛利率",
+      "formula": "gross_profit / revenue"
+    },
+    {
+      "id": "inventory_turnover",
+      "name": "存货周转率",
+      "formula": "cogs / average_inventory"
+    },
+    {
+      "id": "ar_days",
+      "name": "应收账款周转天数",
+      "formula": "average_accounts_receivable / revenue * 365"
+    },
+    {
+      "id": "order_fulfillment_rate",
+      "name": "订单履约率",
+      "formula": "delivered_order_lines / sales_order_lines"
+    }
+  ]
+}
