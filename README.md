@@ -47,6 +47,11 @@ python -m ainative.cli sandbox-score \
 详细格式和公开/私有数据边界参见
 [`docs/sandbox/quickstart.md`](docs/sandbox/quickstart.md)。
 
+本地 Codex 接手开发时，请先阅读 [`AGENTS.md`](AGENTS.md) 和
+[`docs/handoff/PROJECT_HANDOFF.md`](docs/handoff/PROJECT_HANDOFF.md)。测试记录与后续
+路线分别位于 [`TEST_REPORT.md`](docs/handoff/TEST_REPORT.md) 和
+[`ROADMAP.md`](docs/handoff/ROADMAP.md)。
+
 ## V0.1 的核心约束
 
 - 每个 AI 同事必须拥有责任契约；
