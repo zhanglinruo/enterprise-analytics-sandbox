@@ -9,12 +9,12 @@ Preparation
 | Field | Value |
 |---|---|
 | Input seed | 61 |
-| Effective seed | Pending generation |
-| Benchmark ID | Pending generation |
-| Generator commit | Pending generation |
-| Public archive SHA-256 | Pending generation |
-| Database SHA-256 | Pending generation |
-| Generated at | Pending generation |
+| Effective seed | 61 |
+| Benchmark ID | `bench_2a6511aeb612` |
+| Generator commit | `6f35a385711994d741305f5a995fd1dc6ed18fc7` |
+| Public archive SHA-256 | `cef9e8c59003a12b54afbdc884b85c3de0af23d94518db3808e54ecec9d6c2cf` |
+| Database SHA-256 | `9c33c0e1f0359c58565d270ce0cd719ef8e1558d78686d334958458cf1018016` |
+| Generated at | `2026-07-31T00:53:16Z` |
 
 ## Run registry
 
